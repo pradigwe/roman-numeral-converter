@@ -1,0 +1,95 @@
+:root {
+    --main-color: #eae0d5;
+    --text-color: #0a0908;
+    --accent-one: #22333B;
+    --accent-two: #C6AC8F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+html {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: var(--main-color);
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+h1 {
+    color: var(--accent-one);
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Main Styling */
+
+.container {
+    background-color: var(--accent-two);
+    color: var(--text-color);
+    width: 500px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+#number {
+    margin-top: 20px;
+    width: 60%;
+    background-color: rgb(233, 233, 233);
+    color: var(--text-color);
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    border-bottom: 2px solid #27233a;
+    
+}
+
+#convert-btn {
+    width: 25%;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+    background-color: var(--accent-one);
+    color: white;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 22px;
+    height: 50px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    position:fixed;
+    bottom: 10px;
+}
